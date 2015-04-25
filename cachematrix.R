@@ -1,8 +1,8 @@
 ## The functions calculate the inverse of a matrix and store the solution
 
 
-## This function sets the values of a matrix, gets the matrix,
-## sets the inverse of the matrix and gets the inverse of the matrix
+## This function takes the values of a matrix, sets the matrix, retrieves the matrix,
+## sets the inverse of the matrix and retrieves the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function returns the inverse of a matrix
-## returns the chached inverse if it already exists, 
+## It returns the chached inverse if it already exists or
 ## calculates the inverse of the matrix if it does not yet exist
 
 cacheSolve <- function(x, ...) {
